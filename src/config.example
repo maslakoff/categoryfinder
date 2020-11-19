@@ -1,0 +1,7 @@
+module.exports = () => ({
+  sourceDir: 'source',
+  sourceFilePattern: /.txt/,
+  outputDir: 'output',
+  outputFilename: 'categories.json',
+  categoryPattern: /-(.*)/,
+});
